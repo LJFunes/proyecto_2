@@ -1,6 +1,6 @@
 # <h1 align=center> **Proyecto Final individual #2** </h1>
 
-# <h1 align=center> **Data Analyst sobre Análisis de Siniestros Viales en la Ciudad de Buenos Aires 2016-2021** </h1>
+# <h1 align=center> **Análisis de Siniestros Viales en la Ciudad de Buenos Aires 2016-2021** </h1>
 
 <p align='center'>
 <img src="imagenes/bsas.png" alt="Accidente de tránsito">
@@ -158,6 +158,20 @@ En la siguiente imagen se aprecian los rendimientos de los tres KPI propuestos.
 
 ![KPI](imagenes/KPI.png)
 
+
+<br>
+
+## CONCLUSIONES
+
+#### Patrones temporales y espaciales:
+* La mayoría de los siniestros fatales ocurren durante la semana (de lunes a viernes) en horario diurno, pero se destaca un pico elevado los fines de semana entre las 5 y 7 de la madrugada.
+* Las avenidas, especialmente en sus cruces, concentran el mayor porcentaje de siniestros fatales. La Avenida General Paz (con más de 60 víctimas) y las avenidas Rivadavia y Libertador (con 20 y 19 víctimas respectivamente) son las más afectadas.
+* Las tres autopistas más afectadas fueron Arturo Frondizi, Perito Moreno y 25 de Mayo, que registran la mayor cantidad de víctimas fatales en este tipo de vías.
+* La Comuna 1 concentra la mayoría de los siniestros con peatones atropellados por colectivos, mientras que las Comunas 4, 9, 8 y 12 se destacan por la cantidad de accidentes en autopistas y la General Paz, sobre todo motociclistas víctimas por colisionar principalmente con camiones y autos.
+
+#### Perfiles de las víctimas y acusados:
+* El perfil más común de las víctimas es de sexo masculino (casi el 80%) motociclistas, en el rol de conductor, entre 18 y 35 años de edad, luego siguen peatones concentrando el mayor rango etáreo a mayores de 65 años. Si analizamos solo por sexo femenino, nos encontramos que el rol que cumplía la víctima era peatón o acompañante-pasajera (un 80%), y por rango etáreo se concentra en las mujeres mayores de 65 años.
+* El perfil de los acusados no es posible construirlo con precisión, ya que solo se cuenta con el tipo de vehículo que conducían, siendo los principales colectivos de pasajeros (sobre todo en la comuna 1) y camiones (en General Paz y autopistas), lo cual permite inferir que una gran mayoría son choferes con licencia profesional en muchos casos (pero es necesario realizar otra investigación al respecto).
 <br>
 
 <br>
