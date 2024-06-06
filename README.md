@@ -15,7 +15,6 @@
 
 El objetivo de este proyecto es analizar los accidentes de tráfico en la Ciudad de Buenos Aires utilizando datos recopilados por el Observatorio de Movilidad y Seguridad Vial (OMySV) entre 2016 y 2021. El análisis busca identificar patrones, tendencias y factores de riesgo relacionados con estos accidentes, con el propósito de proporcionar información útil para la toma de decisiones por parte de las autoridades locales y para la prevención de futuros incidentes.
 
-Sin embargo, es importante tener en cuenta una particularidad significativa: aunque el censo de 2022 del Gobierno Argentino reporta una población estable de 3,121,707 habitantes en la Ciudad Autónoma de Buenos Aires, aproximadamente 3.5 millones de personas ingresan diariamente desde los municipios del Gran Buenos Aires. Esta diferencia tan significativa hace que cualquier cálculo de indicadores clave de rendimiento (KPIs) basado únicamente en datos del censo resulte inexacto y poco representativo de la situación real.
 
 ### Metodología y fuentes de información para las estadísticas de siniestros viales
 El Observatorio de Movilidad y Seguridad Vial de la Ciudad de Buenos Aires (OMSV) toma como su principal fuente de información datos policiales, tal y como recomiendan los estándares internacionales. Las estadísticas elaboradas se realizan en base a los sumarios que instruye la Policía de la Ciudad ante dos clases de delitos que involucran la seguridad vial: lesiones culposas y homicidios culposos.
