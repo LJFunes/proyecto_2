@@ -4,7 +4,7 @@
 
 
 <p align='center'>
-<img src="imagenes/intro.png" alt="Accidente de tránsito">
+<img src="imagenes/Intro.png" alt="intro">
 </p>
 
 <br>
