@@ -2,10 +2,10 @@
 
 # <h1 align=center> **Análisis de Siniestros Viales en la Ciudad de Buenos Aires 2016-2021** </h1>
 
-<p align='center'>
-<img src="imagenes/bsas.png" alt="Accidente de tránsito">
-</p>
 
+<p align='center'>
+<img src="imagenes/intro.png" alt="Accidente de tránsito">
+</p>
 
 <br>
 
@@ -54,6 +54,95 @@ Para el desarrollo del dashboard, se utilizaron las siguientes herramientas:
 ![PowerBI](https://img.shields.io/badge/PowerBI-333333?style=flat&logo=powerbi)
 
 <br>
+
+## **KPI**: INDICADORES CLAVES DE RENDIMIENTO ESTABLECIDOS
+
+Se plantearon tres objetivos en relación a la disminución de la cantidad de víctimas fatales de los siniestros viales, desde los cuales se proponen tres indicadores de rendimiento clave o KPI.
+
+<br>
+
+<p align='center'>
+<img src="imagenes/KPIs.png" alt="Accidente de tránsito">
+</p>
+
+<br>
+
+
+### KPI 1
+
+Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior*
+
+Definimos a la tasa de homicidios en siniestros viales como el número de víctimas fatales en accidentes de tránsito por cada 100 mil habitantes en un área geográfica durante un período de tiempo específico. Su fórmula es:
+
+$ \frac{\text{Número de homicidios en siniestros viales}}{\text{Población total}}·100,000$
+
+Y la fórmula para conocer la evolución de la tasa de homicidios por semestre de siniestros viales en CABA es:
+
+$ \frac{\text{Tasa de homicidios semestre anterior - Tasa de homicidios semestre actual}}{\text{Tasa de homicidios semestre anterior}}·100$
+
+Como *Población Total* se calculó la población para el año 2021 a partir del censo poblacional del año 2022 (3.121.707 habitantes).
+También es posible
+
+<br>
+RESULTADO SEGUNDO SEMESTRE 2021: 15% -- OBJETIVO ALCANZADO..<br>
+En el segundo semestre del año 2021 se alcanzó el objetivo. Se reduce la tasa de homicidios en más del 15% con respecto al primer semestre del año 2021. Al obtener una tasa de homocidios de 1.35 en comparación con el valor objetivo de 1.59.
+
+
+
+<br>
+
+### KPI 2
+
+Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior
+
+Para ello se define a la **Cantidad de accidentes mortales de motociclistas en siniestros viales** como el número absoluto de hechos que involucran víctimas motociclistas que sufrieron accidentes fatales durante un período anual. La fórmula para medir la evolución de la cantidad de accidentes mortales en CABA por períodos anuales es:
+
+$ \frac{\text{Accidentes moto año anterior - Accidentes moto año actual}}{\text{Accidentes moto año anterior}}·100$
+
+* **Accidentes moto año anterior**: Número de accidentes mortales con víctimas en moto del año anterior
+* **Accidentes moto año actual**: Número de accidentes mortales con víctimas en moto en el año actual
+
+<br>
+RESULTADO AÑO 2021: -70% -- OBJETIVO NO LOGRADO..<br>
+Para el año 2021 no se alcanzaron los objetivos. Por el contrario, se incrementó la cantidad de accidentes fatales de motociclistas en un 70%. El objetivo era alcanzar una cifra inferior a 25 accidentes mortales de motociclistas, pero la misma fue de 46. Sin embargo, si consideramos que fue el año atípico por la pandemia, podemos tomar como referencia el año 2019 para valorar mejor la posible reducción. En tal caso, sí observamos que se alcanza el objetivo, ya que se logra reducir un 8%.
+    
+
+<br>
+
+### KPI 3
+
+Reducir en un 15% la cantidad de accidentes mortales en autopistas (incluida la General Paz), en CABA, respecto al semestre anterior.
+
+Se trabaja con el valor absoluto de accidentes mortales en autopistas para un período semestral. La fórmula para medir la evolución de la cantidad de accidentes mortales en autopistas durante períodos semestrales es la siguiente: 
+
+$\frac{\text{Accidentes autopistas semestre anterior - Accidentes autopistas semestre actual}}{\text{Accidentes autopistas semestre anterior}}·100$ 
+
+* **Accidentes autopistas semestre anterior**:  Cantidad de accidentes mortales en autopistas semestre anterior
+* **Accidentes autopistas semestre actual**: Cantidad de accidentes mortales en autopistas semestre actual
+
+<br>
+RESULTADO SEEGUNDO SEMESTRE AÑO 2021: 30% -- OBJETIVO ALCANZADO..<br>
+Se supera el objetivo para el segundo semestre del año 2021. Se reduce la cantidad de accidentes en autopistas y General Paz en más del 30% para el segundo semestre del año 2021.
+
+<br>
+<br>
+
+## DASHBOARD
+
+Se puede interactuar a través de las páginas del dashboard para estudiar las distintas correlaciones entre las variables de todos los datos recogidos y suministrados por el Observatorio de Movilidad y Seguridad Vial de la Ciudad Autónoma de Buenos Aires, el cual puede descargarse en este mismo repositorio, y abajo puede ver las mismas:
+<br>
+
+![dashboard1](imagenes/Dashboard1.png)
+
+<br><br>
+
+![dashboard2](imagenes/Dashboard2.png)
+
+<br><br>
+
+![dashboard3](imagenes/Dashboard3.png)
+
+<br><br>
 
 ## REPORTE DEL ANALISIS
 
@@ -115,52 +204,14 @@ Podemos observar que las principales víctimas o eran peatones, o conducían mot
 
 <br>
 
-## KPI
-
-Se plantearon tres objetivos en relación a la disminución de la cantidad de víctimas fatales de los siniestros viales, desde los cuales se proponen tres indicadores de rendimiento clave o KPI.
-
-1. Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior*
-
-    Las tasas de mortalidad relacionadas con siniestros viales suelen ser un indicador crítico de la seguridad vial en una región. Se define como **Tasa de homicidios en siniestros viales** al número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes en un área geográfica durante un período de tiempo específico, en este caso se toman 6 meses. Su fórmula es:
-
-    $\text{Tasa de homicidios en siniestros viales} = \frac{\text{Número de homicidios en siniestros viales}}{\text{Población total}}·100,000$
-
-    Como *Población Total* se calculó la población para el año 2021 a partir de los censos poblacionales del año 2010 y 2022.
-
-    Se reduce la tasa de homicidios para el segundo semestre del año 2021 en más del 15%. Por lo tanto se cumple el objetivo con creces, al obtener una tasa de homocidios de 1.35 en comparación con el valor objetivo de 1.59 que representa una reducción del 10% con respecto al primer semestre.
-
-<br>
-  
-
-2. Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior*
-
-    Para ello se define a la **Cantidad de accidentes mortales de motociclistas** como el número absoluto de accidentes fatales en los que estuvieron involucradas víctimas que viajaban en moto en un determinado periodo anual. La fórmula para medir la evolución de los accidentes mortales con víctimas en moto es:  
-    
-    $\text{Cantidad de accidentes mortales de motociclistas} = -\frac{\text{Víctimas moto año anterior - Víctimas moto año actual}}{\text{Víctimas moto año anterior}}·100$
-
-    Donde:
-    - $\text{Víctimas moto año anterior}$: Número de accidentes mortales con víctimas en moto en el año anterior
-    - $\text{Víctimas moto año actual}$: Número de accidentes mortales con víctimas en moto en el año actual 
-
-    Para este caso, se toma como año actual al año 2021 y como año anterior al año 2020. En primer lugar, se calculó la *Cantidad de accidentes mortales de motociclistas* para el año 2020, de esta manera el objetivo a cumplir es de **26** (es decir, la reducción del 7% de la cantidad de accidentes para 2021). Al calcular la *Cantidad de accidentes mortales de motociclistas* para el año 2021 resultó de **46** lo que significa que aumentó un 70% la cantidad de muertes de conductores de motociclistas respecto del 2021.
-
-
-<br>
-  
-3. Reducir en un 15% la cantidad de accidentes mortales en autopistas (incluida la General Paz), en CABA, respecto al semestre anterior.
-
-    Basándome en el objetivo del Plan de Seguridad Vial trabajado, que era reducir en un 30% los homicidios a causa de sinientros viales, decido llevar este objetivo pero trabajarlo para los peatones con el rango de fechas disponible en el dataset, por esta razón comparo los valores entre diciembre 2021 y diciembre 2016. Su fórmula es:  
-    
-    $\text{Reducción Tasa Mortalidad Peatones 2016-2021} = \frac{\text{Tasa Mortalidad Peatones 2016 - Tasa Mortalidad Peatones 2021}}{\text{Tasa Mortalidad Peatones 2016}}$
-
-En la siguiente imagen se aprecian los rendimientos de los tres KPI propuestos.
-
-![KPI](imagenes/KPI.png)
-
 
 <br>
 
 ## CONCLUSIONES
+
+#### Con respecto a los objetivos planteados en los tres indicadores de logro o KPI's:
+Se lograron cumplir los objetivos propuestos en los indicadores de logro semestrales KPI 1 y KPI 3, pero en cuanto al indicador anual KPI 2, no se lograron los objetivos (sin embargo, si consideramos que el año 2020 fue atípico por la pandemia, razón por la cual elegimos medir el KPI 2 contra el año 2019, podemos evidenciar que se cumplieron con todos los objetivos propuestos).
+
 
 #### Patrones temporales y espaciales:
 * La mayoría de los siniestros fatales ocurren durante la semana (de lunes a viernes) en horario diurno, pero se destaca un pico elevado los fines de semana entre las 5 y 7 de la madrugada.
