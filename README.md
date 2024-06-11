@@ -73,11 +73,11 @@ Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos sei
 
 Definimos a la tasa de homicidios en siniestros viales como el número de víctimas fatales en accidentes de tránsito por cada 100 mil habitantes en un área geográfica durante un período de tiempo específico. Su fórmula es:
 
-$ \frac{\text{Número de homicidios en siniestros viales}}{\text{Población total}}·100,000$
+$\frac{\text{Número de homicidios en siniestros viales}}{\text{Población total}}·100,000$
 
 Y la fórmula para conocer la evolución de la tasa de homicidios por semestre de siniestros viales en CABA es:
 
-$ \frac{\text{Tasa de homicidios semestre anterior - Tasa de homicidios semestre actual}}{\text{Tasa de homicidios semestre anterior}}·100$
+$\frac{\text{Tasa de homicidios semestre anterior - Tasa de homicidios semestre actual}}{\text{Tasa de homicidios semestre anterior}}·100$
 
 Como *Población Total* se calculó la población para el año 2021 a partir del censo poblacional del año 2022 (3.121.707 habitantes).
 También es posible
@@ -96,7 +96,7 @@ Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el últi
 
 Para ello se define a la **Cantidad de accidentes mortales de motociclistas en siniestros viales** como el número absoluto de hechos que involucran víctimas motociclistas que sufrieron accidentes fatales durante un período anual. La fórmula para medir la evolución de la cantidad de accidentes mortales en CABA por períodos anuales es:
 
-$ \frac{\text{Accidentes moto año anterior - Accidentes moto año actual}}{\text{Accidentes moto año anterior}}·100$
+$\frac{\text{Accidentes moto año anterior - Accidentes moto año actual}}{\text{Accidentes moto año anterior}}·100$
 
 * **Accidentes moto año anterior**: Número de accidentes mortales con víctimas en moto del año anterior
 * **Accidentes moto año actual**: Número de accidentes mortales con víctimas en moto en el año actual
