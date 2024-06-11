@@ -1,6 +1,6 @@
-# <h1 align=center> **Proyecto Final individual #2** </h1>
+# <h1 align=center> **Proyecto Final 2** </h1>
 
-# <h1 align=center> **Análisis de Siniestros Viales en la Ciudad de Buenos Aires 2016-2021** </h1>
+<h1 style="text-align: center; font-family: 'Arial, sans-serif'; color: red; font-weight: bold; "> Análisis de Siniestros Viales en Ciudad de Buenos Aires </h1>
 
 
 <p align='center'>
@@ -9,11 +9,9 @@
 
 <br>
 
-
-
 ## DESCRIPCION DEL PROYECTO
 
-El objetivo de este proyecto es analizar los accidentes de tráfico en la Ciudad de Buenos Aires utilizando datos recopilados por el Observatorio de Movilidad y Seguridad Vial (OMySV) entre 2016 y 2021. El análisis busca identificar patrones, tendencias y factores de riesgo relacionados con estos accidentes, con el propósito de proporcionar información útil para la toma de decisiones por parte de las autoridades locales y para la prevención de futuros incidentes.
+El objetivo de este proyecto es analizar los accidentes viales con víctimas fatales en la Ciudad de Buenos Aires, utilizando datos recopilados por el Observatorio de Movilidad y Seguridad Vial (OMySV) entre el 1/01/2016 y el 31/12/2021. El análisis busca identificar patrones, tendencias y factores de riesgo relacionados con estos accidentes, con el propósito de proporcionar información útil para la toma de decisiones por parte de las autoridades locales y para la prevención de futuros incidentes. También se analizan los resultados de tres KPI propuestos.
 
 
 ### Metodología y fuentes de información para las estadísticas de siniestros viales
@@ -21,26 +19,26 @@ El Observatorio de Movilidad y Seguridad Vial de la Ciudad de Buenos Aires (OMSV
 
 La cifra de víctimas fatales informada por el MJyS es cotejada y validada por el Observatorio, que también se nutre de la información proporcionada por múltiples áreas (SAME, AUSA, AUSOL, Hospitales Agudos de la Ciudad de Buenos Aires, medios de comunicación, la Cámara Nacional de Apelaciones, el Ministerio Público Fiscal de la Ciudad de Buenos Aires, entre otros). Esto permite que el registro sea lo más completo posible.
 
-Vigilancia de lesionados por siniestros viales en el sistema de salud público de la Ciudad
 Por otro lado, el equipo del Observatorio de Movilidad y Seguridad Vial realiza de manera primaria un seguimiento de los ingresos de pacientes por siniestros viales a los trece hospitales de agudos de la Ciudad de Buenos Aires. Dicho relevamiento actúa como fuente para la consolidación de datos de siniestralidad de fuente policial pero a su vez sirve de base para informes relativos a la atención sanitaria de las víctimas por siniestros viales atendidas en las instituciones públicas de la Ciudad.
+
+Fallecidos como consecuencia de siniestros viales: de acuerdo a la definición internacional, hasta 2021, los informes se habían realizado con el dato de víctimas fatales dentro de los 7 días después de ocurrido el hecho, con la aplicación de una fórmula que estimaba el número a 30 días.
 
 <br>
 
 ## CONTENIDO DEL REPOSITORIO
 
-- Carpeta datasets: contiene los archivos originales (xlsx) sin modificación que se usaron en el proyecto, y los csv limpios
-- Carpeta imágenes: contiene imágenes para mostrar en este readme.md
-- Carpeta mapa: contiene los shp utilizados en el EDA para construir el mapa de la ciudad de Buenos Aires
-- Archivo Dashboard.pbix:  Dashboard Power BI con gráficos y filtros interactivos para comunicar mejor el análisis de datos
-- Archivo ETL.ipynb: donde se realizaron los trabajos de limpieza de los datasets originales (incluido el trabajo sobre nulos y duplicados)
-- Archivo EDA.ipynb: se realiza un análisis con distintas herramientas de Python sobre los datasets limpios mostrando toda clase de gráficos y conclusiones
-- Archivo README.md: Este archivo
+- Carpeta [datasets](datasets/): contiene los archivos originales (xlsx) sin modificación que se usaron en el proyecto, y los csv limpios
+- Carpeta [imágenes](imagenes/): contiene imágenes para mostrar en este readme.md
+- Carpeta [mapa](mapa/): contiene los shp utilizados en el EDA para construir el mapa de la ciudad de Buenos Aires
+- Archivo [Dashboard.pbix](Dashboard.pbix):  Dashboard Power BI con gráficos y filtros interactivos para comunicar mejor el análisis de datos
+- Archivo [ETL.ipynb](ETL.ipynb): donde se realizaron los trabajos de limpieza de los datasets originales (incluido el trabajo sobre nulos y duplicados)
+- Archivo [EDA.ipynb](EDA.ipynb): se realiza un análisis con distintas herramientas de Python sobre los datasets limpios mostrando toda clase de gráficos y conclusiones
 
 <br>
 
 ## TECNOLOGIAS Y HERRAMIENTAS UTILIZADAS
 
-Para el desarrollo del EDA (*Exploratory Data Analysis*), se utilizaron las siguientes herramientas y tecnologias:
+Para el desarrollo del [ETL](ETL.ipynb) (*Extraction, Transform, Load*) y del [EDA](EDA.ipynb) (*Exploratory Data Analysis*), algunas de las herramientas y tecnologías que se utilizaron fueron las siguientes:
 
 ![VSCode](https://img.shields.io/badge/-VSCode-333333?style=flat&logo=visual-studio-code)
 ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
@@ -49,7 +47,7 @@ Para el desarrollo del EDA (*Exploratory Data Analysis*), se utilizaron las sigu
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-333333?style=flat&logo=WordCloud)
 ![Seaborn](https://img.shields.io/badge/Seaborn-333333?style=flat&logo=Seaborn)
 
-Para el desarrollo del dashboard, se utilizaron las siguientes herramientas:
+Para el desarrollo del [Dashboard](Dashboard.pbix), se utilizaron las siguientes herramientas:
 
 ![PowerBI](https://img.shields.io/badge/PowerBI-333333?style=flat&logo=powerbi)
 
@@ -57,7 +55,8 @@ Para el desarrollo del dashboard, se utilizaron las siguientes herramientas:
 
 ## **KPI**: INDICADORES CLAVES DE RENDIMIENTO ESTABLECIDOS
 
-Se plantearon tres objetivos en relación a la disminución de la cantidad de víctimas fatales de los siniestros viales, desde los cuales se proponen tres indicadores de rendimiento clave o KPI.
+Se plantearon tres objetivos relacionados con la reducción de la cantidad de víctimas fatales en siniestros viales, a partir de los cuales se desarrollan los tres indicadores clave de rendimiento (KPI).
+
 
 <br>
 
@@ -127,7 +126,7 @@ Se supera el objetivo para el segundo semestre del año 2021. Se reduce la canti
 <br>
 <br>
 
-## DASHBOARD
+## [DASHBOARD](Dashboard.pbix)
 
 Se puede interactuar a través de las páginas del dashboard para estudiar las distintas correlaciones entre las variables de todos los datos recogidos y suministrados por el Observatorio de Movilidad y Seguridad Vial de la Ciudad Autónoma de Buenos Aires, el cual puede descargarse en este mismo repositorio, y abajo puede ver las mismas:
 <br>
@@ -146,7 +145,9 @@ Se puede interactuar a través de las páginas del dashboard para estudiar las d
 
 ## REPORTE DEL ANALISIS
 
-El informe para el período de 6 años, desde 2016 al 2021 (incluído) cuenta con un registro total de 717 víctimas fatales por siniestros viales dentro de los 30 días del incidente, de acuerdo a la definición internacional de fallecidos como consecuencia de siniestros viales (hasta 2021, los informes se habían realizado con el dato de víctimas fatales dentro de los 7 días después de ocurrido el hecho, con la aplicación de una fórmula que estimaba el número a 30 días).
+Algunos datos obtenidos del [EDA](EDA.ipynb), para el período de 6 años, desde 1/01/2016 al 31/12/2021:
+
+Para dicho período se registraron 717 víctimas fatales en total, por siniestros viales dentro de los 30 días del incidente (según la definición estándar internacional), en toda la Ciudad Autónoma de Buenos Aires.
 
 Se puede destacar que desde el año 2019 se ha logrado una reducción considerable de siniestros viales. A pesar del año atípico 2020 debido a la pandemia, este gráfico muestra que la tendencia a la baja se mantiene desde el retorno a la normalidad.
 
