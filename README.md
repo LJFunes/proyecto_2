@@ -83,7 +83,8 @@ Como *Población Total* se calculó la población para el año 2021 a partir del
 También es posible
 
 <br>
-RESULTADO SEGUNDO SEMESTRE 2021: 15% -- OBJETIVO ALCANZADO..<br>
+
+RESULTADO SEGUNDO SEMESTRE 2021: **15%** (Objetivo Superado) <br>
 En el segundo semestre del año 2021 se alcanzó el objetivo. Se reduce la tasa de homicidios en más del 15% con respecto al primer semestre del año 2021. Al obtener una tasa de homocidios de 1.35 en comparación con el valor objetivo de 1.59.
 
 
@@ -102,7 +103,8 @@ $\frac{\text{Accidentes moto año anterior - Accidentes moto año actual}}{\text
 * **Accidentes moto año actual**: Número de accidentes mortales con víctimas en moto en el año actual
 
 <br>
-RESULTADO AÑO 2021: -70% -- OBJETIVO NO LOGRADO..<br>
+
+RESULTADO AÑO 2021: **-70%** (Objetivo No Superado)<br>
 Para el año 2021 no se alcanzaron los objetivos. Por el contrario, se incrementó la cantidad de accidentes fatales de motociclistas en un 70%. El objetivo era alcanzar una cifra inferior a 25 accidentes mortales de motociclistas, pero la misma fue de 46. Sin embargo, si consideramos que fue el año atípico por la pandemia, podemos tomar como referencia el año 2019 para valorar mejor la posible reducción. En tal caso, sí observamos que se alcanza el objetivo, ya que se logra reducir un 8%.
     
 
@@ -120,7 +122,8 @@ $\frac{\text{Accidentes autopistas semestre anterior - Accidentes autopistas sem
 * **Accidentes autopistas semestre actual**: Cantidad de accidentes mortales en autopistas semestre actual
 
 <br>
-RESULTADO SEEGUNDO SEMESTRE AÑO 2021: 30% -- OBJETIVO ALCANZADO..<br>
+
+RESULTADO SEEGUNDO SEMESTRE AÑO 2021: **30%** (Objetivo Superado) <br>
 Se supera el objetivo para el segundo semestre del año 2021. Se reduce la cantidad de accidentes en autopistas y General Paz en más del 30% para el segundo semestre del año 2021.
 
 <br>
